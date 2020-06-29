@@ -1,0 +1,43 @@
+NATIVE:
+  - app:
+      os: "android"
+      app_name: "myo2_android"
+      container_name: "UK - MyO2 - Android"
+      container_id: "GTM-T44LB7Z"
+      ua_id: "UA-115771276-12"
+      ua_id_var: "{{UA-MYO2-UK}}"
+  - app:
+      os: "ios"
+      app_name: "myo2_ios"
+      container_name: "UK - MyO2 - iOS"
+      container_id: "GTM-W8N6S64"
+      ua_id: "UA-115771276-12"
+      ua_id_var: "{{UA-MYO2-UK}}"
+  - app:
+      os: "android"
+      app_name: "tuenti_android"
+      container_name: "Tuenti Android"
+      container_id: "GTM-MSGDXC9"
+      ua_id: "UA-115771276-6"
+      ua_id_var: "{{UA-TuentiApp}}"
+  - app:
+      os: "ios"
+      app_name: "tuenti_ios"
+      container_name: "Tuenti iOS"
+      container_id: "GTM-NTZCSL4"
+      ua_id: "UA-115771276-6"
+      ua_id_var: "{{UA-TuentiApp}}"
+  - app:
+      os: "android"
+      app_name: "de_mein_o2_android"
+      container_name: "DE - MeinO2 - Android"
+      container_id: "GTM-KDGHZNF"
+      ua_id: "UA-115771276-25"
+      ua_id_var: "{{UA-MEINO2-DE}}"
+  - app:
+      os: "ios"
+      app_name: "de_mein_o2_ios"
+      container_name: "DE - MeinO2 - iOS"
+      container_id: "GTM-M825462"
+      ua_id: "UA-115771276-25"
+      ua_id_var: "{{UA-MEINO2-DE}}"
